@@ -1,0 +1,10 @@
+Se (Clicar no Produto)
+    Acessar página com detalhes
+
+Se (Selecionar o método de pagamento=Cartão de crédito)
+    Inserir os dados do cartão de crédito
+Se não
+    Acessar página inicial do website
+
+Enquanto (Procurando por 1 minuto)
+    Acessar página inicial do website
